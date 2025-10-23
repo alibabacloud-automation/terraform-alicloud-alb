@@ -22,8 +22,3 @@ variable "vswitch_name_2" {
   description = "The name of the other v_switch."
 }
 
-variable "create" {
-  description = "Whether to create resources in module."
-  type        = bool
-  default     = false
-}
